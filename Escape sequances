@@ -1,0 +1,10 @@
+#Escape squances
+
+
+print("Hello \t Team code orbit \r\n")  #\backslash r used to remove whatever behind \r
+print("Hello Team\r code orbit \r\n")  #\backslash n used to give space down. used togather with \r
+print("Hello Team\n code orbit \r\n")     #\t used to put tab between the words
+
+#Include the "" (double couts to the above text:
+
+print("\"Hello Engineer Mariya\"")   #Bckslashes used hear to include the couts.

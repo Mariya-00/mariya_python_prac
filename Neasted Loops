@@ -1,0 +1,43 @@
+#Neasted loops
+
+star = "X"
+
+num_of_rows = 3
+num_of_col = 3
+
+#outer loop
+for row in range (num_of_rows):     #First loop is always for the rows and columns.
+    #Inner loop
+    for column in range (num_of_col):
+        print("X |", end = "")  
+
+        """
+        This is COMMENT:
+        end="" is basically for not let the loop goes down futher,instead it generate
+        columns and rows as it defined before.
+        """
+    print("\n---------")       # "" write nothing to not add more stars.
+print("I am finally outside the loop :)\n")
+
+
+
+# New task
+
+star = "X"
+
+num_of_rows = 3
+num_of_col = 3
+
+#outer loop
+for row in range (num_of_rows):     #First loop is always for the rows and columns.
+    #Inner loop
+    for column in range (row + 1):
+        print("X |", end = "")  
+
+        """
+        This is COMMENT:
+        end="" is basically for not let the loop goes down futher,instead it generate
+        columns and rows as it defined before.
+        """
+    print("\n---------")       # "" write nothing to not add more stars.
+print("I am finally outside the loop :)\n")

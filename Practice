@@ -1,0 +1,38 @@
+Number = 2
+for c in range (5):
+    x = (Number*c)
+    print (str( Number ) + " x " + str(c) + " = " + str(x) )
+print ("END ...... END")
+"""
+Commment;
+str is like a text + something else. as it shows above str(number)+"X" and the result it will be
+2 X ... and etc..
+"""
+
+# New task
+z = 5
+
+for i in range(z):
+    print('*****')
+
+# New task
+a = 5
+for n in range(a):
+    for c in range(a-n-1): 
+        print('', end=(''))
+    for k in range (2*n-1): #in row n=0 >> 2*0+1 = 1 and so on ..
+        print('*', end=(''))
+print()
+
+#.............................
+
+#Same task but Hoor's idea (odd number):
+
+p = 5
+for i in range (p):
+    w = (i*2)+1      # Number of stars to print within the 1 row
+    print(" ")     # print empty bracet is only to jump to another line down.
+
+    for j in range (w):
+        print("*", end="")
+print(" ")
